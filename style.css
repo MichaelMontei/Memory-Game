@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.containerLeft{
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    background-color: green;
+}
+
+.containerRight{
+    height: 100vh;
+    width: 50%;
+    background-color: grey;
+}
+
+#cardOne{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
